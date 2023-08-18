@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+sealed class ImageConstants {
+  static const backgroundChair = 'assets/images/background_image_chair.jpg';
+  static const imageLogo = 'assets/images/imgLogo.png';
+}
+
 sealed class FontConstants {
   static const fontFamily = 'Poppins';
 }
